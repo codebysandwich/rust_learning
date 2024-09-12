@@ -1,0 +1,13 @@
+[package]
+name = "rust_learning"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "datastruct"
+path = "./src/datastruct/main.rs"
+
+[[bin]]
+name = "variable"
+path = "./src/variable/main.rs"
+
