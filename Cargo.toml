@@ -11,3 +11,33 @@ path = "./src/datastruct/main.rs"
 name = "variable"
 path = "./src/variable/main.rs"
 
+[[bin]]
+name = "ownership"
+path = "./src/ownership/main.rs"
+
+[[bin]]
+name = "str_reference_and_String"
+path = "./src/str_refererce_and_String/main.rs"
+
+[[bin]]
+name = "func_example"
+path = "./src/func_example/main.rs"
+
+[[bin]]
+name = "enum_example"
+path = "./src/enum_example/main.rs"
+
+[[bin]]
+name = "iron_gcd"
+path = "src/iron_gcd/main.rs"
+
+[[bin]]
+name = "mandelbrot"
+path = "src/mandelbrot/main.rs"
+
+[dependencies]
+iron = "0.5.1"
+mime = "0.2.3"
+router = "0.5.1"
+urlencoded = "0.5.0"
+num = "0.1.27"

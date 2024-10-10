@@ -14,11 +14,14 @@ fn main() {
     println!("{arr1:?}");
     let arr2 = [3; 5];
     println!("{arr2:?}");
+    // 索引访问
+    println!("arr element: {}", arr1[2]);
 
-    let _arr = arr1;
-    println!("{arr1:?}");
-
-    let s = "rust";
-    let _s = s;
-    println!("{s:?}");
+    let tup = (1, "str");
+    println!("{tup:?}");
+    // 访问元组
+    println!("tup element: {}", tup.1);
+    // 元组模式匹配
+    let (x, s) = tup;
+    println!("匹配结果: {}, {}", x, s);
 }
