@@ -1,8 +1,8 @@
-/**
+/*
  * File              : main.rs
  * Author            : sandwich
  * Date              : 2024-02-20 13:26:44
- * Last Modified Date: 2024-07-08 14:59:13
+ * Last Modified Date: 2024-10-15 01:04:13
  * Last Modified By  : sandwich
  */
 
@@ -17,6 +17,7 @@ fn main() {
 
     {
         const SE: usize = 1_000;
+        println!("{SE}"); // scope here
         println!("{SE}"); // scope here
     }
     // println!("{SE}"); // out scope

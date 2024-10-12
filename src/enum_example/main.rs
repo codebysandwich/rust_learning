@@ -35,6 +35,25 @@ impl Color {
     }
 }
 
+fn check(x: i32) -> Option<String> {
+    if x <= 5 {
+        return Some("5".to_string());
+    }
+    None
+}
+
+#[test]
+fn test_check() {
+    let s = check(12).unwrap_or("Bad Input".to_owned());
+    println!("{s}");
+    let s = check(13).unwrap_or_default();
+    println!("{s}");
+    let s = check(23).unwrap_or_else(|| {
+        println!("Bad Input Detected");
+        "Bad Input".to_string()
+    });
+    println!("{s}");
+}
 
 fn main() {
     let my_color = Color::Red;
@@ -43,4 +62,11 @@ fn main() {
     Color::print(my_color); // 所有权已经转移
     let my_color = Color::Unknown("none".to_string());
     my_color.print_info();
+
+    let x = 5;
+    match x {
+        1..5 => { println!("1"); }
+
+        _ => {}
+    }
 }
