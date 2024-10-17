@@ -35,6 +35,10 @@ path = "src/iron_gcd/main.rs"
 name = "mandelbrot"
 path = "src/mandelbrot/main.rs"
 
+[[bin]]
+name = "reference"
+path = "src/reference/main.rs"
+
 [dependencies]
 iron = "0.5.1"
 mime = "0.2.3"
