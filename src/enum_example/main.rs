@@ -35,6 +35,7 @@ impl Color {
     }
 }
 
+#[allow(dead_code)]
 fn check(x: i32) -> Option<String> {
     if x <= 5 {
         return Some("5".to_string());
