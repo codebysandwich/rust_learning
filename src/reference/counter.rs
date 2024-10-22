@@ -6,10 +6,12 @@
 * Description：lear mut/reference and Association in struct
 */
 
+#[allow(dead_code)]
 struct Counter {
     number: i32,
 }
 
+#[allow(dead_code)]
 /// 实现结构体的关联函数
 impl Counter {
     /// 关联函数,用以初始化新的对象
