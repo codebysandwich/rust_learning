@@ -39,6 +39,10 @@ path = "src/mandelbrot/main.rs"
 name = "reference"
 path = "src/reference/main.rs"
 
+[[bin]]
+name = "struct_example"
+path = "src/struct_example/main.rs"
+
 [dependencies]
 iron = "0.5.1"
 mime = "0.2.3"

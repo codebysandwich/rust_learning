@@ -6,3 +6,4 @@
 
 pub mod func_example;
 pub mod reference;
+pub mod struct_example;
