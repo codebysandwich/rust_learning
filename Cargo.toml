@@ -1,53 +1,9 @@
+workspace = { members = ["quickreplace", "restaurant", "rust_pl"] }
 [package]
 name = "rust_learning"
 version = "0.1.0"
 edition = "2021"
 
-[[bin]]
-name = "datastruct"
-path = "./src/datastruct/main.rs"
-
-[[bin]]
-name = "variable"
-path = "./src/variable/main.rs"
-
-[[bin]]
-name = "ownership"
-path = "./src/ownership/main.rs"
-
-[[bin]]
-name = "str_reference_and_String"
-path = "./src/str_refererce_and_String/main.rs"
-
-[[bin]]
-name = "func_example"
-path = "./src/func_example/main.rs"
-
-[[bin]]
-name = "enum_example"
-path = "./src/enum_example/main.rs"
-
-[[bin]]
-name = "iron_gcd"
-path = "src/iron_gcd/main.rs"
-
-[[bin]]
-name = "mandelbrot"
-path = "src/mandelbrot/main.rs"
-
-[[bin]]
-name = "reference"
-path = "src/reference/main.rs"
-
-[[bin]]
-name = "struct_example"
-path = "src/struct_example/main.rs"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-iron = "0.5.1"
-mime = "0.2.3"
-router = "0.5.1"
-urlencoded = "0.5.0"
-num = "0.1.27"
-image = "0.13.0"
-crossbeam = "0.2.8"

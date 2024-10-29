@@ -6,7 +6,7 @@
 * Description：
 */
 
-use rust_learning::struct_example::rectangle::Rectangle;
+use rust_pl::struct_example::rectangle::Rectangle;
 
 struct User {
     username: String,

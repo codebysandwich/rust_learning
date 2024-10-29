@@ -6,6 +6,8 @@
 * Description：Rectangle struct
 */
 
+use super::point;
+
 #[derive(Debug)]
 pub struct Rectangle {
     pub width: u32,
