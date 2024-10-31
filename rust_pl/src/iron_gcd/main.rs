@@ -16,7 +16,7 @@ use router::Router;
 use std::str::FromStr;
 use urlencoded::UrlEncodedBody;
 
-use rust_learning::func_example::fn_tools::gcd;
+use rust_pl::utils::fn_tools::gcd;
 
 fn get_from(_request: &mut Request) -> IronResult<Response> {
     let mut response = Response::new();
@@ -49,7 +49,7 @@ fn post_gcd(request: &mut Request) -> IronResult<Response> {
             response.set_mut(status::BadRequest);
             response.set_mut("from data has no 'n' parameter\n");
             return Ok(response);
-        },
+        }
         Some(nums) => nums,
     };
 
@@ -60,8 +60,8 @@ fn post_gcd(request: &mut Request) -> IronResult<Response> {
                 response.set_mut(status::BadRequest);
                 response.set_mut(format!("Value for 'n' parameter not a number: {:?}\n", e));
                 return Ok(response);
-            },
-            Ok(n) => { numbers.push(n) },
+            }
+            Ok(n) => { numbers.push(n) }
         }
     }
     let mut d = numbers[0];

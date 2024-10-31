@@ -47,6 +47,10 @@ path = "src/struct_example/main.rs"
 name = "inner_crate_example"
 path = "src/inner_crate_example/main.rs"
 
+[[bin]]
+name = "collection_example"
+path = "src/collection_example/main.rs"
+
 [dependencies]
 iron = "0.5.1"
 mime = "0.2.3"

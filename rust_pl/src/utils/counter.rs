@@ -7,7 +7,7 @@
 */
 
 #[allow(dead_code)]
-struct Counter {
+pub struct Counter {
     number: i32,
 }
 

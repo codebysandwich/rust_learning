@@ -6,8 +6,6 @@
 * Description：Rectangle struct
 */
 
-use super::point;
-
 #[derive(Debug)]
 pub struct Rectangle {
     pub width: u32,
@@ -16,6 +14,9 @@ pub struct Rectangle {
 
 /// 实现Rectangle关联函数,方法
 impl Rectangle {
+    pub fn new(width: u32, height: u32) -> Self {
+        Rectangle { width, height }
+    }
     pub fn square(size: u32) -> Self {
         Self { width: size, height: size }
     }
@@ -24,5 +25,16 @@ impl Rectangle {
     }
     pub fn can_hold(&self, other: &Self) -> bool {
         self.width > other.width && self.height > other.height
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_rectangle() {
+        let rec1 = Rectangle::new(300, 400);
+        println!("rec{:?}", rec1);
     }
 }
