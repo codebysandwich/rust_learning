@@ -526,10 +526,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust_learning"
-version = "0.1.0"
-
-[[package]]
 name = "rust_pl"
 version = "0.1.0"
 dependencies = [

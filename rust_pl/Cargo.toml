@@ -51,6 +51,22 @@ path = "src/inner_crate_example/main.rs"
 name = "collection_example"
 path = "src/collection_example/main.rs"
 
+[[bin]]
+name = "panic_example"
+path = "src/panic_example/main.rs"
+
+[[bin]]
+name = "generics_example"
+path = "src/generics_example/main.rs"
+
+[[bin]]
+name = "trait_example"
+path = "src/trait_example/main.rs"
+
+[[bin]]
+name = "liftime_trait"
+path = "src/liftime_trait/main.rs"
+
 [dependencies]
 iron = "0.5.1"
 mime = "0.2.3"
