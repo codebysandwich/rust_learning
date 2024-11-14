@@ -8,6 +8,7 @@
 
 use rust_pl::utils::rectangle::Rectangle;
 
+#[allow(dead_code)]
 struct User {
     username: String,
     email: String,
@@ -15,10 +16,13 @@ struct User {
     active: bool,
 }
 
+#[allow(dead_code)]
 /// 元组结构体
 struct Color(i32, i32, i32);
+#[allow(dead_code)]
 struct Point(i32, i32, i32);
 
+#[allow(dead_code)]
 fn area(rectangle: &Rectangle) -> u32 {
     rectangle.width * rectangle.height
 }

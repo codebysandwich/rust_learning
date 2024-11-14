@@ -6,7 +6,7 @@
 
 use std::io::Write;
 use std::str::FromStr;
-use rust_pl::func_example::fn_tools::gcd;
+use rust_pl::utils::fn_tools::gcd;
 
 // 单元测试, cargo test 调用
 #[test]
