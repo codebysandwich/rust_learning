@@ -7,6 +7,7 @@
 */
 
 use std::fs::File;
+#[allow(unused_imports)]
 use std::io::{ErrorKind, Read, Error};
 
 #[test]
@@ -83,6 +84,7 @@ fn read_username_from_file_sample() -> Result<String, Error> {
     Ok(s)
 }
 
+#[allow(dead_code)]
 fn read_username_from_file_chain() -> Result<String, Error> {
     let mut s = String::new();
     File::open("hello.txt")?.read_to_string(&mut s)?;
