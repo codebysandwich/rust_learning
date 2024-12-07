@@ -2,6 +2,7 @@
 members = [
     "quickreplace",
     "restaurant",
-    "rust_pl"
+    "rust_pl",
+    "test_example",
 ]
 resolver = "2"
