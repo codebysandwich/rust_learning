@@ -1,5 +1,6 @@
 [workspace]
 members = [
+    "minigrep",
     "quickreplace",
     "restaurant",
     "rust_pl",

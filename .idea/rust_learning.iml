@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/rust_pl/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test_example/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test_example/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/minigrep/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/restaurant/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>

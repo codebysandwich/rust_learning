@@ -67,6 +67,10 @@ path = "src/trait_example/main.rs"
 name = "liftime_trait"
 path = "src/liftime_trait/main.rs"
 
+[[bin]]
+name = "iterator_and_closure"
+path = "src/iterator_and_closure/main.rs"
+
 [dependencies]
 iron = "0.5.1"
 mime = "0.2.3"
