@@ -71,6 +71,34 @@ path = "src/liftime_trait/main.rs"
 name = "iterator_and_closure"
 path = "src/iterator_and_closure/main.rs"
 
+[[bin]]
+name = "box_pointer"
+path = "src/box_pointer/main.rs"
+
+[[bin]]
+name = "deref_trait"
+path = "src/deref_trait/main.rs"
+
+[[bin]]
+name = "drop_trait"
+path = "src/drop_trait/main.rs"
+
+[[bin]]
+name = "rc_pointer"
+path = "src/rc_pointer/main.rs"
+
+[[bin]]
+name = "refcell_pointer"
+path = "src/refcell_pointer/main.rs"
+
+[[bin]]
+name = "circular_reference"
+path = "src/circular_reference/main.rs"
+
+[[bin]]
+name = "weak_rc_pointer"
+path = "src/weak_rc_pointer/main.rs"
+
 [dependencies]
 iron = "0.5.1"
 mime = "0.2.3"
